@@ -302,7 +302,7 @@ Return ONLY the JSON structure, no additional text or explanations."""
             # Add metadata
             parsed_json['_metadata'] = {
                 'source_image': image_filename,
-                'extraction_method': 'tesseract_ollama_deepseek',
+                'extraction_method': 'tesseract_ollama',
                 'processing_timestamp': datetime.now().isoformat(),
                 'model_used': self.model_name
             }
